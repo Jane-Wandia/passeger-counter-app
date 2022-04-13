@@ -1,12 +1,16 @@
 //document.getelementid("count-el".innerText=5)
 
-//let count = 5
+let saveEl =Document.getElementById("save-el")
+let countEl =Document.getElementById("count-el")
+let count = 0
 
-//count = 3
-//count= 1
-
-//console.log(count)
+console.log(countEl)
 
 function increment() {
-    console.log("The button was clicked")
+    count=count + 1
+    countEl.innerText = count
+}
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
 }
