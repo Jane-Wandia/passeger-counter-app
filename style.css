@@ -1,54 +1,31 @@
 body{
-    background-image: url("./image/pexels-pixabay-315755.jpg");
-    background-repeat: no-repeat;
+    background-color: aquamarine;
     background-size: cover;
-    background-position: center center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-top: ;
-    height: 100hv;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-}
-.banner-text{
-    z-index: 2;
-    border: 65px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: (-50%, -50%);
-    background: crimson;
-    padding: 30px 35px;
-
+    margin-top: 50px;
 }
 h1{
-   color: white;
+    margin-bottom: 10px;
 }
 h2{
-    color: white;
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
 }
 button{
-    border-radius: 0%;
+    border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: rgb(235, 247, 247);
     font-weight: bold;
     width: 200px;
-    margin-bottom: 5px;
     border-radius: 5px;
-}
-#increment-btn{
-    background-color: rgb(234, 22, 54);
-}
-#save-btn{
-    background-color: rgb(45, 253, 52);
-}
-p{
     color: white;
+}
+#increment-btw{
+    background-color: darkgreen;
+}
+#save-btw{
+    background: darkred;
 }
