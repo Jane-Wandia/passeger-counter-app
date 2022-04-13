@@ -1,5 +1,10 @@
 body{
-    background-color: aquamarine;
+    background-image: url("./image/istockphoto-904523520-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    z-index: -2;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -8,11 +13,13 @@ body{
 }
 h1{
     margin-bottom: 10px;
+    color: white;
 }
 h2{
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+    color: white;
 }
 button{
     border: none;
@@ -23,9 +30,13 @@ button{
     border-radius: 5px;
     color: white;
 }
-#increment-btw{
+#increment-btn{
     background-color: darkgreen;
 }
-#save-btw{
+#save-btn{
     background: darkred;
+}
+p{
+    color: white;
+    text-shadow: ;
 }
