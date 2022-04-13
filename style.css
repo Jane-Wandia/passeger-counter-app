@@ -1,15 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    background-image: url("./image/pexels-pixabay-315755.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: ;
+    height: 100hv;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.banner-text{
+    z-index: 2;
+    border: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+    background: crimson;
+    padding: 30px 35px;
+
 }
 h1{
-    text-align: left;
+   color: white;
 }
 h2{
+    color: white;
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
-    text-align: left;
 }
 button{
     border-radius: 0%;
@@ -26,4 +48,7 @@ button{
 }
 #save-btn{
     background-color: rgb(45, 253, 52);
+}
+p{
+    color: white;
 }
